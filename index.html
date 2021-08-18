@@ -1,13 +1,289 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Document</title>
+    <title>MEVA</title>
 </head>
+
 <body>
+    <!-- NAVBAR -->
+
+    <header>
+        <div class="container navBarIndex">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand"> <img src="imgs/MEVA.png" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="conductores.html">Conductores</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="envios.html">Envios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="empresas.html">Empresas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="flota.html">Flota</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="nuestraHistoria.html">Nuestra Historia</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- CAROUSEL -->
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imgs/imgCarousel1.jpg" class="d-block w-100" alt="img1">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/imgCarousel2.jpeg" class="d-block w-100" alt="img2">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+            </button>
+        </div>
+    </div>
+
+    <!-- ACORDION -->
+
+    <div class="container-fluid contCarousel">
+        <div><img src="imgs/MEVA.png" alt="">
+        </div>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button botonCarousel" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">ENVIOS
+
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>
+                            <div class="alert alert-danger d-flex align-items-center" role="alert">
+                                <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img"
+                                    aria-label="Success:">
+                                    <use xlink:href="#check-circle-fill" />
+                                </svg>
+                                <div>
+                                    LA MEJOR MANERA DE REALIZAR TUS ENVIOS, TOTALMENTE SEGUROS Y EN TIEMPO RECORD!!
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button botonCarousel" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">EMPRESAS
+
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>
+                            <div class="alert alert-danger d-flex align-items-center" role="alert">
+                                <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img"
+                                    aria-label="Success:">
+                                    <use xlink:href="#check-circle-fill" />
+                                </svg>
+                                <div>
+                                    PRECIOS ESPECIALIZADOS A NUESTRAS EMPRESAS CLIENTE
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed botonCarousel" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        FLOTA
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>
+                            <div class="alert alert-danger d-flex align-items-center" role="alert">
+                                <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img"
+                                    aria-label="Success:">
+                                    <use xlink:href="#check-circle-fill" />
+                                </svg>
+                                <div>
+                                    CONTAMOS CON LAS MEJORES UNIDADES Y PROTOCOLOS PARA HACER DE TU SERVICIO EL MEJOR
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIBBON -->
+
+
+    <div id="ribbon" class="container-fluid">
+        <div id="birthday" class="container w-50 pl-5">
+            <div class="row align-items-center">
+                <div class="col-sm p-3">
+                    <img src="imgs/ribbon.png" class="w-75 mx-auto d-block" alt="autos">
+                </div>
+                <div class="col-sm p-3 text-center">
+                    <h1>MEVA <p><span class="text-primary">LIDER EN TRANSPORTE Y ENVIOS</span></p>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <!-- SEPARADOR -->
+
+    </div>
+
+
+    <!-- MAIN-->
+
+    <section class="fondoCard">
+        <div class="container contCard">
+            <div class="h1">
+                <h3 class="text-center titCard">CONDUCTORES DEL MES</h3>
+            </div>
+   
+    <div class="cards">
+        <div class="card" style="width: 18rem;">
+            <img src="imgs/conductor1.jpg" class="card-img-top card-border" alt="conductor1">
+            <div class="card-body">
+                <h5 class="card-title">MARIA</h5>
+
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="imgs/conductor2.jpg" class="card-img-top card-border" alt="conductor2">
+                <div class="card-body">
+                    <h5 class="card-title">JUANA</h5>
+
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="imgs/conductor3.jpg" class="card-img-top card-border" alt="conductor3">
+                <div class="card-body">
+                    <h5 class="card-title">PEDRO</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
     
+</section>
+
+<!-- MAPA -->
+<section class="map">
+    <div class="textMap">
+        <p>CONDUCTORES MAS CERCANOS</p>
+        
+    </div>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26245.584004543125!2d-58.52010574999999!3d-34.68757075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1629303249481!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>    </div>
+</section>
+
+
+<!-- REDES -->
+
+<div class="container">
+    <div>
+    <div class="row text-center">
+        <div class="col-4">
+<img src="imgs/facebook-circular-logo.png" class="w-25"  alt="facebook"><button><button type="button" class="btn btn-danger">SEGUIR</button>
+        </div>
+        <div class="col-4">
+<img src="imgs/instagram-logo.png" class="w-25"  alt="instagram"><button><button type="button" class="btn btn-danger">SEGUIR</button>
+        </div>
+        <div class="col-4">
+<img src="imgs/twitter-draw-logo.png" class="w-25" alt="twitter"><button type="button" class="btn btn-danger">SEGUIR</button>
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- FOOTER -->
+
+<footer>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Servicios</h3>
+                        <ul>
+                            <li><a href="#">TRASLADOS</a></li>
+                            <li><a href="#">ENVIOS</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>¿QUIENES SOMOS?</h3>
+                        <ul>
+                            <li><a href="nuestraHistoria.html">Nuestra Historia</a></li>
+                           
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>MEVA</h3>
+                        <p>Mas de 30 años junto a vos, en las buenas y en las malas, siempre a tu lado.</p>
+                    </div>
+                </div>
+                <p class="copyright">MEVA © 2021</p>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
