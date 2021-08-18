@@ -1,0 +1,16 @@
+.cardEmpresa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.cardEmpresa {
+    
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+.cardEmpresa:hover{ transform: scale(1.05);}
